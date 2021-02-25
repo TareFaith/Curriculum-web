@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding-top:40px;
+            background-color: cornsilk;
+        }
+        .img{
+            max-width: 100%;
+            height: 250px;
+            width: 250px;
+            display:flex;
+        }
+      #nav-bar a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+        #nav-bar{
+          overflow:hidden;
+          background-color: #333;
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        /* Change the color of links on hover */
+      #nav-bar a:hover {
+       background-color: #ddd;
+       color: black;
+}
+
+  /* Add a color to the active/current link */
+  #nav-bar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#nav-bar li {
+    display:inline
+}
+section{
+   color: black;
+   margin-top: 10px;
+   font-size: 30px;
+  margin: 10px;
+  text-align: left;
+  font-size: 1.8em;
+  font-weight: thin;
+   
+}
+    </style>
+
+</head>
+<body>
+    <nav id="nav-bar">
+        <p>nav-bar-items</p>
+        <ul>
+            <li> <a href="#nav-bar-brand">Home</a></li>
+            <li> <a href="#introduction-section">Introduction</a></li>
+            <li> <a href="#what-we-teach">Curriculum</a></li>
+            <li> <a href="#prerequisites">Prerequisites</a></li>
+            <li> <a href="#our-members">Gallery</a></li>
+            <li> <a href="#get-intouch">Get-in-touch- with-us</a></li>
+        </ul>
+    </nav>
+    <section id="nav-bar-brand">
+      <header>
+          <h3>Home</h3>
+      </header>
+    </section>
+    <section id="introduction-section">
+         <header>
+             <h3>Introduction</h3>
+         </header>
+    </section>
+    <section id="what-we-teach">
+         <header>
+             <h3>Curriculum</h3>
+         </header>
+    </section>
+    <section id="prerequisites">
+       <header>
+           <h3>Prerequisites</h3>
+       </header>
+       <p>What you need</p>
+       <ol>
+           <li>
+             <p>Register on <a href="https://www.freecodecamp.org/" target="_blank">freecodecamp</a></p>
+           </li>
+           <li><p>download <a href="https://code.visualstudio.com/" target="_blank">Visualstudio code</a> on your machine</p></li>
+           <li><p>Download <a href="https://git-scm.com/downloads" target="_blank">Git</a></p></li>
+           <li><p>Create a <a href="https://github.com/" target="_blank">Github</a> account</p></li>  
+       </ol>
+    </section>
+
+    <section id="our-members">
+        <header>
+            <h3>Gallery</h3>
+            <img src="../assets/profile.jpg" alt="image-profile1" class="img">
+            <img src="" alt="image-profile2" alt="image-profile2"class="img">
+        </header>
+     </section>
+ 
+    <section id="get-intouch">
+           <header>
+               <h3>Get-in-touch-with-us</h3>
+           </header>
+         <p> follow us on <a href="https://www.facebook.com/codeimpactug" target="_blank">facebook</a></p>
+         <p> follow us on <a href="https://twitter.com/search?q=%23CodeImpact&src=hash" target="_blank">twitter</a></p>
+    </section>
+
+    <section>
+
+    </section>
+</body>
+</html>
