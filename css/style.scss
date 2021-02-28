@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    overflow-x: hidden;
+}
+nav{
+    background-color: peachpuff;
+    color: black;
+    width: 100vw;
+
+    #nav-bar-brand{
+        display: flex;
+        padding: 15px;
+        list-style: none;
+
+        #nav-bar-items{
+            display: flex;
+    }
+    li{
+        padding: 5px;
+
+        &:hover{
+            background-color: greenyellow;
+            border-radius: 5px;
+        }
+
+        a{
+            padding: 5px;
+            text-decoration: none;
+            color: black
+        }
+     }
+    }
+}
+section{
+    padding: 5px;
+    h1{
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+#introduction-section{
+   padding: 15px;
+
+   h1{
+       font-family: cursive;
+       
+   }
+   
+}
+#what-we-teach{
+    background-color: darkgrey;
+    font-size: large;
+    h1{
+        font-family: cursive;
+        
+    }
+}
+#prerequisites{
+    background-color:rgb(150, 142, 142);
+    font-size: large;
+
+    h1{
+        font-family: cursive;
+        
+    }
+}
+#our-members{    
+   
+    .section-header{
+        text-align: center;
+        margin-bottom: 30px;
+        h2{
+            margin: 0;
+            letter-spacing: 5px;
+        }
+    }
+     .team-member{
+            width: 46.6%;
+            height: auto;
+            float: left;
+            box-shadow: 5px 5px 15px;
+            position: relative;
+            display: block;
+            overflow: hidden;
+            padding: 15px;
+            text-align: center;
+            margin: 0 5px;
+            img{
+                width: 100%;
+            }
+            h3{
+                color: black;
+            }
+        }
+    
+ }
+
+#get-in-touch-with-us{
+        position: relative;
+        bottom: 0;
+        background-color: black;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-around;
+        height: 10vh;
+        width: 100%;
+    
+    h3{
+        font-family: monospace;
+        font-size: 2rem;
+    }
+    p{
+        color: yellowgreen;
+
+        a{
+            text-decoration: none;
+            color: peachpuff;
+        }
+    }
+}
+@media screen and (max-width:767px){
+    nav{
+        background-color:skyblue;
+        width: 100vw;
+        text-align: center;
+    
+        #nav-bar-brand{
+            display: inline;
+            padding: 15px;
+            list-style: none;
+
+            #nav-bar-items{
+                display: inline;
+            
+        li{
+            padding: 5px;
+    
+            &:hover{
+                background-color:gainsboro;
+                border-radius: 5px;
+            }
+    
+            a{
+                padding: 5px;
+                text-decoration: none;
+                color: black
+            }
+         }
+        }
+     }
+    }
+}
+#our-members{    
+   
+    .section-header{
+        text-align: center;
+        margin-bottom: 30px;
+        h2{
+            margin: 0;
+            letter-spacing: 5px;
+        }
+    }
+    
+
+        .team-member{
+            width: 40%;
+            height: auto;
+            float: left;
+            box-shadow: 5px 5px 15px;
+            position: relative;
+            display: block;
+            overflow: hidden;
+            padding: 15px;
+            text-align: center;
+            margin: 0 5px;
+            img{
+                width: 100%;
+            }
+            h3{
+                color: black;
+            }
+        }
+    
+}
+.gap{
+    height: 60vh;
+}
+
+#get-in-touch-with-us{
+    bottom: 0;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+
+    h3{
+        font-family: monospace;
+        font-size: 2rem;
+    }
+    p{
+        color: yellowgreen;
+
+        a{
+            text-decoration: none;
+            color: peachpuff;
+        }
+    }
+
+}

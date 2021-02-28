@@ -4,120 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            padding-top:40px;
-            background-color: cornsilk;
-        }
-        .img{
-            max-width: 100%;
-            height: 250px;
-            width: 250px;
-            display:flex;
-        }
-      #nav-bar a {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-        #nav-bar{
-          overflow:hidden;
-          background-color: #333;
-          position: fixed;
-          top: 0;
-          width: 100%;
-        }
-        /* Change the color of links on hover */
-      #nav-bar a:hover {
-       background-color: #ddd;
-       color: black;
-}
-
-  /* Add a color to the active/current link */
-  #nav-bar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-#nav-bar li {
-    display:inline
-}
-section{
-   color: black;
-   margin-top: 10px;
-   font-size: 30px;
-  margin: 10px;
-  text-align: left;
-  font-size: 1.8em;
-  font-weight: thin;
-   
-}
-    </style>
-
+    <title>Alpa Devs</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <nav id="nav-bar">
-        <p>nav-bar-items</p>
-        <ul>
-            <li> <a href="#nav-bar-brand">Home</a></li>
+        <div id="nav-bar-brand">
+            <div id="nav-bar-items">
+            <li> <a href="#">Home</a></li>
             <li> <a href="#introduction-section">Introduction</a></li>
             <li> <a href="#what-we-teach">Curriculum</a></li>
-            <li> <a href="#prerequisites">Prerequisites</a></li>
+            <li> <a href="#prerequisites">Pre-requisites</a></li>
             <li> <a href="#our-members">Gallery</a></li>
-            <li> <a href="#get-intouch">Get-in-touch- with-us</a></li>
-        </ul>
+            <li> <a href="#get-in-touch-with-us">Get-in-Touch</a></li>
+            </div>
+        </div>
     </nav>
-    <section id="nav-bar-brand">
-      <header>
-          <h3>Home</h3>
-      </header>
-    </section>
+  
     <section id="introduction-section">
-         <header>
-             <h3>Introduction</h3>
-         </header>
+         
+             <h1>Introduction</h1>
+                <p>
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad numquam cum tempore laboriosam commodi officiis cumque rem voluptate iusto quo natus enim, qui porro perferendis ducimus, repellat voluptatibus quod at!
+                 <br>
+                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique rerum eum et debitis blanditiis cumque nam nulla fugit eius officia aliquid, nisi dolor ducimus illo, odit soluta obcaecati. Sint, quisquam.
+                </p>
     </section>
     <section id="what-we-teach">
-         <header>
-             <h3>Curriculum</h3>
-         </header>
+         
+             <h1>Curriculum</h1>
+             <p>Below are are some of the languages on our Curriculum</p>
+             <br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>JQUERY</li>
+                <li>BOOTSTRAP</li>
+                <li>NODE</li>
+            </ul>
+         
     </section>
     <section id="prerequisites">
-       <header>
-           <h3>Prerequisites</h3>
-       </header>
-       <p>What you need</p>
+       
+           <h1>Pre-requisites</h1>
+       <p>These are some of the tools you need in to become a sucessful candidate fit for the Curriculum. You need to download a few tools as listed below.</p>
        <ol>
            <li>
-             <p>Register on <a href="https://www.freecodecamp.org/" target="_blank">freecodecamp</a></p>
-           </li>
-           <li><p>download <a href="https://code.visualstudio.com/" target="_blank">Visualstudio code</a> on your machine</p></li>
-           <li><p>Download <a href="https://git-scm.com/downloads" target="_blank">Git</a></p></li>
-           <li><p>Create a <a href="https://github.com/" target="_blank">Github</a> account</p></li>  
+             <p>Signup with <a href="https://www.freecodecamp.org/" target="_blank">Freecodecamp</a></p></li>
+           <li><p>Download and Install <a href="https://code.visualstudio.com/" target="_blank">Visualstudiocode</a></p></li>
+           <li><p>Download and Install <a href="https://git-scm.com/downloads" target="_blank">Git</a></p></li>
+           <li><p>Signup with <a href="https://github.com/" target="_blank">Github</a></p></li>  
        </ol>
     </section>
+<section id="our-members">
+        <section class="section-header">
+            <h2>Gallery</h2>
+        </section>
+        <a href="https://www.linkedin.com/in/taremwa-faith-074503196/">
+        <section class="team-member">
+            <img src="./img/profile.jpg" alt="member1">
+            <h3>Faith Taremwa</h3>
+        </section>
+    </a>
 
-    <section id="our-members">
-        <header>
-            <h3>Gallery</h3>
-            <a href="https://www.linkedin.com/in/taremwa-faith-074503196/">
-             <img src="../assets/profile.jpg" alt="image-profile1" class="img">
-            </a>
-            
-            <img src="" alt="image-profile2" alt="image-profile2"class="img">
-        </header>
-     </section>
- 
-    <section id="get-intouch">
-           <header>
-               <h3>Get-in-touch-with-us</h3>
-           </header>
-         <p> follow us on <a href="https://www.facebook.com/codeimpactug" target="_blank">facebook</a></p>
-         <p> follow us on <a href="https://twitter.com/search?q=%23CodeImpact&src=hash" target="_blank">twitter</a></p>
-    </section>
+    <a href="https://www.linkedin.com/in/dennis-ruzindana-35460b176/">
+        <section class="team-member">
+            <img src="./img/xhindha2.jpg" alt="member1">
+            <h3>Dennis Ruzindana</h3>
+        </section>
+    </a>
+</section>
 
-    <section>
+<footer id="get-in-touch-with-us">
+           
+     <h3>Get-in-touch-with-us</h3>
+           
+         <p> Follow us on <a href="https://www.facebook.com/codeimpactug" target="_blank">Facebook</a></p>
+         <p> Follow us on <a href="https://twitter.com/search?q=%23CodeImpact&src=hash" target="_blank">Twitter</a></p>
+</footer>
 
-    </section>
 </body>
 </html>

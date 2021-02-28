@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: peachpuff;
+  color: black;
+  width: 100vw;
+}
+
+nav #nav-bar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+  list-style: none;
+}
+
+nav #nav-bar-brand #nav-bar-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav #nav-bar-brand li {
+  padding: 5px;
+}
+
+nav #nav-bar-brand li:hover {
+  background-color: greenyellow;
+  border-radius: 5px;
+}
+
+nav #nav-bar-brand li a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+section {
+  padding: 5px;
+}
+
+section h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#introduction-section {
+  padding: 15px;
+}
+
+#introduction-section h1 {
+  font-family: cursive;
+}
+
+#what-we-teach {
+  background-color: darkgrey;
+  font-size: large;
+}
+
+#what-we-teach h1 {
+  font-family: cursive;
+}
+
+#prerequisites {
+  background-color: #968e8e;
+  font-size: large;
+}
+
+#prerequisites h1 {
+  font-family: cursive;
+}
+
+#our-members .section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#our-members .section-header h2 {
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+#our-members .team-member {
+  width: 46.6%;
+  height: auto;
+  float: left;
+  -webkit-box-shadow: 5px 5px 15px;
+          box-shadow: 5px 5px 15px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+#our-members .team-member img {
+  width: 100%;
+}
+
+#our-members .team-member h3 {
+  color: black;
+}
+
+#get-in-touch-with-us {
+  position: relative;
+  bottom: 0;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 10vh;
+  width: 100%;
+}
+
+#get-in-touch-with-us h3 {
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+#get-in-touch-with-us p {
+  color: yellowgreen;
+}
+
+#get-in-touch-with-us p a {
+  text-decoration: none;
+  color: peachpuff;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    background-color: skyblue;
+    width: 100vw;
+    text-align: center;
+  }
+  nav #nav-bar-brand {
+    display: inline;
+    padding: 15px;
+    list-style: none;
+  }
+  nav #nav-bar-brand #nav-bar-items {
+    display: inline;
+  }
+  nav #nav-bar-brand #nav-bar-items li {
+    padding: 5px;
+  }
+  nav #nav-bar-brand #nav-bar-items li:hover {
+    background-color: gainsboro;
+    border-radius: 5px;
+  }
+  nav #nav-bar-brand #nav-bar-items li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#our-members .section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#our-members .section-header h2 {
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+#our-members .team-member {
+  width: 40%;
+  height: auto;
+  float: left;
+  -webkit-box-shadow: 5px 5px 15px;
+          box-shadow: 5px 5px 15px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+#our-members .team-member img {
+  width: 100%;
+}
+
+#our-members .team-member h3 {
+  color: black;
+}
+
+.gap {
+  height: 60vh;
+}
+
+#get-in-touch-with-us {
+  bottom: 0;
+  background-color: black;
+  color: whitesmoke;
+  width: 100%;
+  text-align: center;
+}
+
+#get-in-touch-with-us h3 {
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+#get-in-touch-with-us p {
+  color: yellowgreen;
+}
+
+#get-in-touch-with-us p a {
+  text-decoration: none;
+  color: peachpuff;
+}
+/*# sourceMappingURL=style.css.map */
