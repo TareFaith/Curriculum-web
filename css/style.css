@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color: grey;
+  background-color:whitesmoke;
   overflow-x: hidden;
 }
 
 nav {
-  background-color: peachpuff;
+  background-color:lightseagreen;
   color: black;
   width: 100vw;
 }
@@ -47,34 +47,35 @@ section {
   padding: 5px;
 }
 
-section h1 {
+section h3 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
 }
 
 #introduction-section {
   padding: 15px;
 }
 
-#introduction-section h1 {
+#introduction-section h3 {
   font-family: cursive;
 }
 
 #what-we-teach {
-  background-color: darkgrey;
+  background-color:orange;
   font-size: large;
 }
 
-#what-we-teach h1 {
+#what-we-teach h3 {
   font-family: cursive;
 }
 
 #prerequisites {
-  background-color: #968e8e;
+  background-color:lightskyblue;
   font-size: large;
 }
 
-#prerequisites h1 {
+#prerequisites h3 {
   font-family: cursive;
 }
 
@@ -83,7 +84,7 @@ section h1 {
   margin-bottom: 30px;
 }
 
-#our-members .section-header h2 {
+#our-members .section-header h3 {
   margin: 0;
   letter-spacing: 5px;
 }
