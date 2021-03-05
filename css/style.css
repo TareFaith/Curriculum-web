@@ -6,12 +6,21 @@
 body {
   background-color:whitesmoke;
   overflow-x: hidden;
+  font-size: 130%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  font-family: sans-serif;
+  
+
 }
 
 nav {
   background-color:lightseagreen;
   color: black;
   width: 100vw;
+  top:0;
 }
 
 nav #nav-bar-brand {
@@ -20,6 +29,14 @@ nav #nav-bar-brand {
   display: flex;
   padding: 15px;
   list-style: none;
+}
+section{
+  display:block;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 15px;
 }
 
 nav #nav-bar-brand #nav-bar-items {
@@ -43,30 +60,34 @@ nav #nav-bar-brand li a {
   color: black;
 }
 
-section {
+
+/*section {
   padding: 5px;
 }
-
-section h3 {
+*/
+section h1 {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: larger;
+  color: black;
 }
 
 #introduction-section {
   padding: 15px;
+
+
 }
 
-#introduction-section h3 {
+#introduction-section h1 {
   font-family: cursive;
 }
 
 #what-we-teach {
-  background-color:orange;
+  background-color:#D3D3D3;
   font-size: large;
 }
 
-#what-we-teach h3 {
+#what-we-teach h1 {
   font-family: cursive;
 }
 
@@ -75,7 +96,7 @@ section h3 {
   font-size: large;
 }
 
-#prerequisites h3 {
+#prerequisites h1 {
   font-family: cursive;
 }
 
@@ -103,11 +124,12 @@ section h3 {
   margin: 0 5px;
 }
 
+
 #our-members .team-member img {
   width: 100%;
 }
 
-#our-members .team-member h3 {
+#our-members .team-member h1 {
   color: black;
 }
 
@@ -128,7 +150,7 @@ section h3 {
   width: 100%;
 }
 
-#get-in-touch-with-us h3 {
+#get-in-touch-with-us h1 {
   font-family: monospace;
   font-size: 2rem;
 }
@@ -175,7 +197,7 @@ section h3 {
   margin-bottom: 30px;
 }
 
-#our-members .section-header h2 {
+#our-members .section-header h1 {
   margin: 0;
   letter-spacing: 5px;
 }
@@ -198,7 +220,7 @@ section h3 {
   width: 100%;
 }
 
-#our-members .team-member h3 {
+#our-members .team-member h1 {
   color: black;
 }
 
@@ -214,9 +236,9 @@ section h3 {
   text-align: center;
 }
 
-#get-in-touch-with-us h3 {
+#get-in-touch-with-us h1 {
   font-family: monospace;
-  font-size: 2rem;
+  /*font-size: 2rem;*/
 }
 
 #get-in-touch-with-us p {
@@ -226,5 +248,18 @@ section h3 {
 #get-in-touch-with-us p a {
   text-decoration: none;
   color: peachpuff;
+}
+ul{
+  list-style-position: inside;
+  display: inline block;
+}
+ #prerequisites ol {
+   margin:10px 10px 10px 10px;
+}
+#what-we-teach li{
+  list-style:  inside;
+}
+#what-we-teach p{
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
